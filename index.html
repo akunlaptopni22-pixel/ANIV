@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ffe7f0">
+<title>3 Tahun Kita — Happy Anniversary</title>
+<style>
+:root{--pink:#f36fa6;--deep:#c84d83;--ink:#63394e;--pale:#fff1f6;--white:#fffafd}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--pale);color:var(--ink);font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;overflow-x:hidden}
+.hero{min-height:100svh;padding:28px 18px;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;background:radial-gradient(circle at 15% 15%,#fff 0 5%,transparent 5.5%),linear-gradient(145deg,#ffe9f1,#ffd2e4 60%,#fff5f8)}
+.wrap{width:min(100%,900px);margin:auto}.tag{display:inline-block;padding:8px 15px;border-radius:99px;background:#ffffffb8;border:1px solid white;font-size:.82rem;letter-spacing:.08em}
+h1{font-size:clamp(2.7rem,10vw,5.8rem);line-height:1;margin:20px 0;color:var(--deep);text-shadow:3px 4px #fff}
+.lead{max-width:590px;margin:0 auto 24px;line-height:1.8;font-size:clamp(1rem,3vw,1.2rem)}
+.btn{border:0;border-radius:99px;background:var(--deep);color:white;padding:14px 22px;font-weight:800;box-shadow:0 6px #a93c6c;cursor:pointer;font:inherit}.btn:active{transform:translateY(3px);box-shadow:0 3px #a93c6c}
+.float{position:absolute;font-size:clamp(24px,5vw,42px);animation:bob 4s ease-in-out infinite;pointer-events:none}.a{left:8%;top:16%}.b{right:9%;top:19%;animation-delay:1s}.c{left:12%;bottom:14%;animation-delay:1.5s}.d{right:13%;bottom:12%;animation-delay:.5s}@keyframes bob{50%{transform:translateY(-16px) rotate(12deg)}}
+section{padding:70px 18px}.title{text-align:center;color:var(--deep);font-size:clamp(1.9rem,6vw,3rem);margin:0 0 12px}.sub{text-align:center;line-height:1.7;max-width:600px;margin:0 auto 28px}
+.photo-card{max-width:570px;margin:auto;background:white;padding:12px;border-radius:28px;box-shadow:0 14px 40px #bd52741c;transform:rotate(-1deg)}.photo-card img{display:block;width:100%;max-height:660px;object-fit:cover;object-position:center 42%;border-radius:19px}.caption{text-align:center;padding:14px 8px 5px;font-weight:800;color:var(--deep)}
+.letter{max-width:760px;margin:auto;background:white;border:2px solid #ffe0ec;border-radius:26px;padding:clamp(20px,5vw,40px);box-shadow:0 12px 34px #bd52741c;line-height:1.95;font-size:1.02rem;white-space:pre-line}.letter strong{color:var(--deep)}.signature{color:var(--deep);font-weight:900;margin-top:18px}
+.cakebox{text-align:center;background:#ffe1ed}.cake{position:relative;width:190px;height:145px;margin:32px auto 18px}.layer{position:absolute;bottom:0;left:10px;width:170px;height:72px;background:#ff9fc5;border-radius:16px 16px 22px 22px;box-shadow:inset 0 -10px #f17ba9}.icing{position:absolute;top:47px;left:10px;width:170px;height:25px;background:#fff4f8;border-radius:15px}.icing:before,.icing:after{content:"";position:absolute;background:#fff4f8;width:18px;height:25px;border-radius:0 0 12px 12px;top:10px}.icing:before{left:35px}.icing:after{right:38px}.candle{position:absolute;z-index:2;top:5px;left:87px;width:15px;height:48px;background:repeating-linear-gradient(45deg,#fff 0 6px,#ff78aa 6px 12px);border-radius:5px}.flame{position:absolute;top:-17px;left:2px;width:12px;height:19px;background:#ffb52e;border-radius:50%;box-shadow:0 0 18px #ffb52e;animation:flick .5s infinite alternate}.flame.off{display:none}@keyframes flick{to{transform:scale(.8) rotate(-8deg)}}
+footer{text-align:center;padding:28px 16px;color:#a45c7d}.music{position:fixed;right:13px;bottom:13px;z-index:5;border:2px solid #ffd1e3;background:#fff;color:var(--deep);border-radius:99px;padding:11px 15px;font-weight:800;box-shadow:0 6px 20px #9b386522}
+.confetti{position:fixed;top:-20px;width:9px;height:14px;z-index:20;pointer-events:none;animation:fall linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:.9}}
+@media(max-width:600px){section{padding:55px 16px}.photo-card img{max-height:72vh}.music{font-size:.83rem}}
+</style></head>
+<body>
+<header class="hero">
+<span class="float a">💗</span><span class="float b">🎀</span><span class="float c">✨</span><span class="float d">🫶🏻</span>
+<div class="wrap"><span class="tag">OUR LITTLE LOVE STORY</span>
+<h1>Happy 3rd<br>Anniversary! ❤️</h1>
+<p class="lead">Sayangkuuuu, cintakuuuuu… tiga tahun, banyak cerita, banyak tawa, dan banyak hal yang sudah kita lewati bersama. Dan aku masih memilih kamu, hari ini dan seterusnya.</p>
+<button class="btn" onclick="document.getElementById('memories').scrollIntoView({behavior:'smooth'});confetti(65)">Buka cerita kita 💌</button></div>
+</header>
+<section id="memories"><div class="wrap"><h2 class="title">Our Favorite Moment 📸</h2><p class="sub">Satu foto, sejuta kenangan. Semoga masih ada banyak momen indah yang bisa kita simpan bersama.</p>
+<div class="photo-card"><img src="assets/foto-kita.jpg" alt="Foto kita berdua"><div class="caption">You & me, always. ❤️</div></div></div></section>
+<section class="cakebox"><div class="wrap"><h2 class="title">Three cheers for us! 🎂</h2><p class="sub">Tiga tahun bersama, dan semoga perjalanan kita masih panjang. Sekarang, buat satu harapan untuk kita.</p>
+<div class="cake"><div class="candle"><div class="flame" id="flame"></div></div><div class="icing"></div><div class="layer"></div></div>
+<button class="btn" id="blow" onclick="blow()">Tiup lilinnya, sayang!</button><p id="wish"></p></div></section>
+<section><div class="wrap"><h2 class="title">A Letter From Albar 💌</h2>
+<div class="letter">Sayangkuuuu cintakuuuuu, happy anniversary ke-3 tahunnn! Yeayyyy ❤️❤️❤️
+
+Ga kerasa perjalanan kita udah sejauh ini. Suka duka udah kita lalui bareng-bareng selama 3 tahun ke belakang iniiii. Banyak pengalaman sama kamuuu, semuaa lakuin bareng kamuuuuu.
+
+Makasih banyak ya sayangggg udah mau bertahan dan bareng Albar terus ❤️🫶🏻. Sayang bangett sama kamuu. Rasanya udah gabisa berkata-kata lagi, karena untaian kata pun ga cukup buat ngegambarin hubungan kita ini ❤️🫶🏻🫂.
+
+Maafin Albar yaa kalau belum bisa kasih yang terbaik buat kamuuu. Maafin Albar juga kalau Albar masih banyak salah ke kamuu. Albar sadar masih kurang banget dalam nge-treat kamuuu, dan Albar bakal terus berusaha kasih 100% sayangnya Albar ke kamuuu.
+
+Sayang kamu selalu dan selamanyaaa ❤️❤️. Happy terus sama Albar ya sayangggg ❤️❤️🫂🫂🫶🏻🫶🏻.
+
+<div class="signature">Forever yours,<br>Albar ❤️</div></div></div></section>
+<footer>Dibuat khusus untuk kita — 3 tahun dan seterusnya. 💗</footer>
+<button class="music" id="musicBtn" onclick="music()">♫ Putar musik</button><audio id="bg" src="assets/musik.mp3" loop preload="none"></audio>
+<script>
+function confetti(n=90){let colors=['#ff6fae','#ffc857','#b49aff','#7bdcb5','#ff9fba'];for(let i=0;i<n;i++){let e=document.createElement('i');e.className='confetti';e.style.left=Math.random()*100+'vw';e.style.background=colors[Math.floor(Math.random()*colors.length)];e.style.animationDuration=(2.5+Math.random()*3)+'s';e.style.animationDelay=Math.random()*.7+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),6500)}}
+function blow(){document.getElementById('flame').classList.add('off');document.getElementById('wish').textContent='Semoga kita selalu saling memilih, saling menguatkan, dan bahagia bersama. ❤️';document.getElementById('blow').textContent='Our wish is sent! ✨';confetti(130)}
+async function music(){let a=document.getElementById('bg'),b=document.getElementById('musicBtn');if(a.paused){try{await a.play();b.textContent='♫ Jeda musik'}catch(e){b.textContent='Tambahkan assets/musik.mp3'}}else{a.pause();b.textContent='♫ Putar musik'}}
+window.addEventListener('load',()=>setTimeout(()=>confetti(35),500));
+</script></body></html>
